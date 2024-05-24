@@ -1,4 +1,5 @@
 import './App.css';
+import MyCalendar from './MyCalendar.jsx';
 
 function App() {
   return (
@@ -6,11 +7,12 @@ function App() {
       <header className="App-header">
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
-          GitHub Codespaces <span className="heart">♥️</span> React
+          GitHub Codespaces by Juan Sala<span className="heart">♥️</span> React
         </p>
         <p className="small">
           Edit <code>src/App.jsx</code> and save to reload.
         </p>
+        <MyCalendar /> {/* Inserted MyCalendar component */}
         <p>
           <a
             className="App-link"
